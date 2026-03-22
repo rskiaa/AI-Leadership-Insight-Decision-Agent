@@ -1,0 +1,26 @@
+Northstar Dynamics Annual Report 2025
+
+Overview
+Northstar Dynamics is a mid-market enterprise software company serving logistics, retail, and manufacturing clients across North America and Europe. In fiscal year 2025, the company focused on recurring revenue growth, AI-assisted workflow automation, and disciplined operating efficiency.
+
+Financial Highlights
+Revenue reached $248 million, up 16 percent year over year.
+Annual recurring revenue grew 21 percent, driven by enterprise renewals and expansion within existing accounts.
+Gross margin improved from 63 percent to 67 percent due to infrastructure optimization and support automation.
+Operating margin expanded to 14 percent from 9 percent in the previous year.
+
+Business Performance
+The enterprise segment outperformed expectations, especially in logistics and industrial accounts adopting predictive planning modules. Small business growth was positive but slowed in the second half of the year as price sensitivity increased.
+Customer retention remained strong in strategic accounts, with net revenue retention of 118 percent. Churn was concentrated in low-touch SMB customers that delayed upgrades or downgraded seats.
+
+Strategic Progress
+Northstar launched an AI recommendations engine for forecasting, exception handling, and scenario planning. Early adopters reported faster decision-making and reduced manual intervention in supply chain workflows.
+The company also consolidated three legacy products into one unified platform experience, lowering maintenance costs and improving onboarding.
+
+Risks
+Key risks include slower SMB demand, competitive pressure from larger platform vendors, and execution risk around the next wave of AI feature releases.
+
+Leadership Priorities for 2026
+Accelerate AI feature adoption in enterprise accounts.
+Improve SMB retention with simpler packaging and onboarding.
+Expand implementation capacity for international customers.

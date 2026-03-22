@@ -7,7 +7,7 @@ RAG-based AI assistant to analyze company documents and answer leadership questi
 1. Install dependencies:
    `python3 -m pip install -r requirements.txt`
 2. Create `.env` from `.env.example` and set `GEMINI_API_KEY`.
-3. Add PDFs to `data/raw_docs/`.
+3. Add PDFs or text documents to `data/raw_docs/`.
 
 ## Run Ingestion
 `python3 app/ingest.py`

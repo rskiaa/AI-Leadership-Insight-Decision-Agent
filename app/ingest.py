@@ -13,18 +13,31 @@ def load_documents():
     docs = []
     os.makedirs(DATA_PATH, exist_ok=True)
     for file in os.listdir(DATA_PATH):
-        if not file.endswith(".pdf"):
-            continue
-        reader = PdfReader(os.path.join(DATA_PATH, file))
-        for page_num, page in enumerate(reader.pages, start=1):
-            text = (page.extract_text() or "").strip()
+        path = os.path.join(DATA_PATH, file)
+        if file.endswith(".pdf"):
+            reader = PdfReader(path)
+            for page_num, page in enumerate(reader.pages, start=1):
+                text = (page.extract_text() or "").strip()
+                if text:
+                    docs.append(
+                        {
+                            "page_content": text,
+                            "metadata": {
+                                "source": file,
+                                "page": page_num,
+                            },
+                        }
+                    )
+        elif file.endswith((".txt", ".md")):
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read().strip()
             if text:
                 docs.append(
                     {
                         "page_content": text,
                         "metadata": {
                             "source": file,
-                            "page": page_num,
+                            "page": 1,
                         },
                     }
                 )
